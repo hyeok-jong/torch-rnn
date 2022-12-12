@@ -99,7 +99,7 @@ batch_size = 3
 sesquence = 5000
 input_size = 7
 num_layers = 2
-hidden_size = 4
+hidden_size = 400
 
 input = torch.randn(sesquence, batch_size, input_size)
 h0 = torch.randn(num_layers, batch_size, hidden_size)
